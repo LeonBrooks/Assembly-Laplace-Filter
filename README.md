@@ -1,4 +1,10 @@
 # Laplace Filter in ARMv8-A (AArch64) Assembly
+
+<p align="middle">
+  <img src="examples/lena.png" class="center" width="49%">
+  <img src="examples/lenaout.png" class="center" width="49%">
+</p>
+
 These are the results of a 3 person group project which was part of one of my university courses. The `Aufgabenstellung` and `Ausarbeitung` PDFs are the task description provided by the university and a detailed report/rundown of our solution respectively (both in German language).
 
 ## Problem Description
@@ -34,3 +40,9 @@ This means correct calls of the program can look like this:
 
 ## My contribution
 I was responsible coding the SIMD implementation and writing the report as well as some bugfixing on the other parts.
+
+<br/><br/>
+<p align="middle">
+  <img src="examples/spiral.jpg" class="center" width="49%">
+  <img src="examples/spiralout.jpg" class="center" width="49%">
+</p>
