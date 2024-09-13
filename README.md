@@ -23,7 +23,7 @@ The following parameters are used to run the program:
 
 This means correct calls of the program can look like this:
 ```shellscript
-./ laplace path { - b iterations }
+./ laplace path {-b iterations}
 ```
 ```shellscript
 ./ laplace -h
