@@ -46,7 +46,7 @@ static inline double getTime(){
 	return t.tv_sec + t.tv_nsec * 1e-9;
 }
 
-//requires path to bmp as argument, optional second argument -b for benchmark mode. If used in benchmark mode third argumen is required, defining the iterations to be executed. Uses simd by default;
+//requires path to bmp as argument, optional second argument -b for benchmark mode. If used in benchmark mode third argument is required, defining the iterations to be executed. Uses simd by default;
 int main(int argc, char** argv)
 {
 	int bench = 0;	//benchmark iterations
