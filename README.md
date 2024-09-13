@@ -1,4 +1,4 @@
-# Laplace Filter in ARMv8-A (AArch64)  Assembly
+# Laplace Filter in ARMv8-A (AArch64) Assembly
 These are the results of a 3 person group project which was part of one of my university courses. The `Aufgabenstellung` and `Ausarbeitung` PDFs are the task description provided by the university and a detailed report/rundown of our solution respectively (both in German language).
 
 ## Problem Description
@@ -14,7 +14,7 @@ The program consists of 3 parts which can be found in the `Implementierung` dire
 
 >All three can be complied using the provided Makefile.
 
-By default the program uses the SIMD version. Additionally, there is also a benchmark mode in which each implementation is run a given number of times (A single run might be too short to tell a difference for small pictures) and returns a benchmark using GNU's CLOCK_MONOTONIC. The result picture is placed in the same directory as the input as out.bmp.
+By default, the program uses the SIMD version. Additionally, there is also a benchmark mode in which each implementation is run a given number of times (A single run might be too short to tell a difference for small pictures) and returns a benchmark using GNU's CLOCK_MONOTONIC. The result picture is placed in the same directory as the input as out.bmp.
 
 The following parameters are used to run the program:
 - (mandatory) The first parameter must be the `path to the input .bmp file`. Alternatively, the first parameter can be a `-h` or `--help` flag to output these instructions.
@@ -31,3 +31,6 @@ This means correct calls of the program can look like this:
 ```shellscript
 ./ laplace -- help
 ```
+
+## My contribution
+I was responsible coding the SIMD implementation and writing the report as well as some bugfixing on the other parts.
